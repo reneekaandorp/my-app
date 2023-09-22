@@ -7,7 +7,14 @@ import reportWebVitals from "./reportWebVitals";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App city="Paris" />
+    <div className="App">
+      <h1>Weather App</h1>
+      <App city="Paris" />
+
+      <a href="https://github.com/reneekaandorp/my-app">
+        <small>GitHub repository</small>
+      </a>
+    </div>
   </React.StrictMode>
 );
 
