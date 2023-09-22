@@ -44,8 +44,8 @@ function App(props) {
         <ul>
           <li>Temperature: {Math.round(weather.temperature)}°C</li>
           <li>Description: {weather.description}</li>
-          <li>Humidity: {weather.humidity}</li>
-          <li>Wind: {Math.round(weather.wind)}</li>
+          <li>Humidity: {weather.humidity}%</li>
+          <li>Wind: {Math.round(weather.wind)} km/h</li>
           <li>
             {" "}
             <img src={weather.icon} alt={weather.description} />{" "}
